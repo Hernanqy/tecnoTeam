@@ -19,7 +19,7 @@ const Testimonial = () => {
                         <img src={user1} alt="" />
                     
                     <div>
-                        <h3>Yago Gonsalez</h3>
+                        <h3>Yago </h3>
                         <span>Estudiante, EPS Informatica</span>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Testimonial = () => {
                         <img src={user2} alt="" />
                     
                     <div>
-                        <h3>Yago Gonsalez</h3>
+                        <h3>Tomas</h3>
                         <span>Estudiante, EPS Informatica</span>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Testimonial = () => {
                         <img src={user3} alt="" />
                     
                     <div>
-                        <h3>Yago Gonsalez</h3>
+                        <h3>Mateo</h3>
                         <span>Estudiante, EPS Informatica</span>
                     </div>
                 </div>
@@ -58,7 +58,20 @@ const Testimonial = () => {
                         <img src={user4} alt="" />
                     
                     <div>
-                        <h3>Yago Gonsalez</h3>
+                        <h3>Samuel</h3>
+                        <span>Estudiante, EPS Informatica</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ut laudantium magnam eligendi earum explicabo omnis odio maiores error officiis harum adipisci quaerat asperiores doloremque nemo, sequi natus rem unde?</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user4} alt="" />
+                    
+                    <div>
+                        <h3>Ciro</h3>
                         <span>Estudiante, EPS Informatica</span>
                     </div>
                 </div>
