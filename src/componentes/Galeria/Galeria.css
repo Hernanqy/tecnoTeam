@@ -1,0 +1,15 @@
+.flecha {
+    width:2em;
+    height:2em;
+    margin-left:0.6em;
+}
+.gallery {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img {
+    width: 23%;
+    border-radius:10px;
+}
