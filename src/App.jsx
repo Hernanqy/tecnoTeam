@@ -2,7 +2,7 @@ import Navbar from "./componentes/Navbar/Navbar"
 import Hero from "./componentes/Hero/Hero"
 import Programs from "./componentes/Programs/Programs"
 
-import About from "./componentes/About/About"
+
 import Campus from "./componentes/Campus/Campus"
 import Footer from "./componentes/Footer/Footer"
 
@@ -15,7 +15,7 @@ const App = () => {
       <div className="container">
       
        <Programs/> 
-       <About/>
+       
        
        <Campus/>
       
