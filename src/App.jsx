@@ -4,7 +4,7 @@ import Programs from "./componentes/Programs/Programs"
 import Title from "./componentes/Title/Title"
 import About from "./componentes/About/About"
 import Campus from "./componentes/Campus/Campus"
-import Testimonial from "./componentes/Testimonial/Testimonial"
+
 const App = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const App = () => {
        <Title/>
        <Campus/>
        <Title/>
-       <Testimonial/>
+       
       </div>
       
     </div>

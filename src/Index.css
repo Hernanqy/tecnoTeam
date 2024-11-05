@@ -8,7 +8,8 @@
 font-family: "Outfit", sans-serif;}
 
     body {
-        background:url(./assets/img2.jpg);
+        background: rgb(238,243,245);
+background: linear-gradient(90deg, rgba(238,243,245,1) 0%, rgba(14,116,228,1) 0%, rgba(231,239,240,1) 100%);
     background-size: cover;
     background-position: center;
     

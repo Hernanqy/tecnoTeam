@@ -1,41 +1,46 @@
 import "./Programs.css";
-import program_1 from "../../assets/NIVEL I.jpg";
-import program_2 from "../../assets/NIVEL 2.jpg";
-import program_3 from "../../assets/NIVEL 3.jpg";
-import icon1 from "../../assets/icon1.png";
-import icon2 from "../../assets/icon2.png";
-import icon3 from "../../assets/icon3.png";
+import program_1 from "../../assets/capacitacion.jpeg";
+import program_2 from "../../assets/diagnostico.jpeg";
+import program_3 from "../../assets/desarme.jpeg";
+import program_4 from "../../assets/chipeo.jpeg";
+import program_5 from "../../assets/rearmado.jpeg";
+import program_6 from "../../assets/equipo.jpeg";
 
 const Programs = () => {
   return (
-
     <div className="programs">
-
-      <div className="program">
+      <div className="program1">
+        <p>Capacitacion</p>
         <img src={program_1} alt="" />
-        <div className="caption">
-          <img src={icon1} alt="" />
-          <p>Nivel 1</p>
-        </div>
-        </div>
-
-        <div className="program">
-        <img src={program_2} alt="" />
-          <div className="caption">
-            <img src={icon2} alt="" />
-            <p>Nivel 2</p>
-          </div>
-        </div>
-
-        <div className="program">
-        <img src={program_3} alt="" />
-          <div className="caption">
-            <img src={icon3} alt="" />
-            <p>Nivel 3</p>
-          </div>
-        </div>
       </div>
-    
+
+      <div className="program1">
+        <p>Diagnostico</p>
+        <img src={program_2} alt="" />
+        <div className="caption"></div>
+      </div>
+
+      <div className="program1">
+        <p>Desarme</p>
+        <img src={program_3} alt="" />
+        <div className="caption"></div>
+      </div>
+      <div className="program1">
+        <p>Chipeo</p>
+        <img src={program_4} alt="" />
+        <div className="caption"></div>
+      </div>
+      <div className="program1">
+        <p>Rearmado</p>
+        <img src={program_5} alt="" />
+        <div className="caption"></div>
+      </div>
+      <div className="program1">
+        <p>Formateo y test</p>
+        <img src={program_6} alt="" />
+        <div className="caption"></div>
+      </div>
+    </div>
   );
 };
 

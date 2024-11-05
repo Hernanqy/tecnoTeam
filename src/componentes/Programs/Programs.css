@@ -4,6 +4,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .program img {
     width: 100%;
@@ -32,4 +33,15 @@
 .program:hover .caption img {
     opacity:1;
     padding-top:0;
+}
+.program1 img{
+    width:20em;
+    height:30em;
+    border-radius: 10px;
+}
+.programs p {
+    font-size:2em;
+    text-align:center;
+    border: solid black;
+    border-radius: 10px;
 }
