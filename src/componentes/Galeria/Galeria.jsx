@@ -7,7 +7,10 @@ import gallery4 from "../../assets/galeria4.jpg"
 const Campus = () => {
   return (
     <div className="campus">
+      
+      <h1>Protagonistas</h1>
         <div className="gallery">
+          
             <img src={gallery1} alt="" />
             <img src={gallery2} alt="" />
             <img src={gallery3} alt="" />
