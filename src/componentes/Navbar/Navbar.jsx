@@ -9,11 +9,7 @@ const Navbar = () => {
     <nav className="conteiner">
       <img className="logo" src={logo} alt="" />
       <ul>
-        <li>¿Que es la E.P.S N° 4</li>
-        <li>Nuestra Formacion</li>
-        <li>Nuestros Trabajos</li>
-       
-        <li><button className="btn"><a href="">Contacto</a></button></li>
+        <button className="btn"><a href="https://www.instagram.com/eps4_olavarria/">Contacto</a></button>
         </ul>
     </nav>
   )
