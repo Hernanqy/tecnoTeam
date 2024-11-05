@@ -9,11 +9,11 @@ const Navbar = () => {
     <nav className="conteiner">
       <img className="logo" src={logo} alt="" />
       <ul>
-        <li> Sobre Nosotros</li>
+        <li>¿Que es la E.P.S N° 4</li>
         <li>Nuestra Formacion</li>
         <li>Nuestros Trabajos</li>
-        <li>¿Que es la EPS?</li>
-        <li><button className="btn">Contacto</button></li>
+       
+        <li><button className="btn"><a href="">Contacto</a></button></li>
         </ul>
     </nav>
   )
